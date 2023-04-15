@@ -145,8 +145,13 @@ img{
 /* ============/HEADER============ */
 /* ============HERO============ */
 .hero-section {
-    background-color: var(--main-text-color);
-        padding: 188px 0;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1440px;
+    padding: 188px 0;
 }
  .hero-container{
     text-align: center;
@@ -213,7 +218,12 @@ img{
 .about-item{
     width: 264px;
 }
-
+.thumb-about{
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 /* ============/ABOUT============ */
 /* ============PROJECTS============ */
 .projects-section{
@@ -260,27 +270,68 @@ img{
 .team-item{
     background-color: var(--white-color);
     width: 264px;
-    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle-container{
-    padding: 32px 16px;
+    padding: 32px 16px 0 16px;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
 
 }
+.media-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 16px 32px 16px;
+}
+.item-media{
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+padding: 12px;
+}
 /* ============/TEAM============ */
+
+/* ============CUSTOMERS============ */
+.customers-title{
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.customers-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 72px;
+}
+.customers-thumb{
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+/* ============/CUSTOMERS============ */
+
 /* ============FOOTER============ */
 
 .studio-white-text{
     color: #F4F4FD;
 }
-/* ============/FOOTER============ */
+
 .footer{
     background-color: var(--main-text-color);
     padding: 100px 0;
+
 }
 .footer-container{
     padding: 0 15px;
+            display: flex;
+            gap: 120px;
 }
 .footer-text{
     color: var(--footer-text-color);
@@ -291,6 +342,25 @@ img{
     padding: 0;
     display: inline-block;
 }
+.footer-media-text{
+    font-weight: 500;
+    color: var(--white-color);
+}
+.footer .media-list{
+    margin: 0;
+    margin-top: 16px;
+}
+.footer .item-media{
+    padding: 8px;
+}
+
+.footer .item-media:hover,
+.footer .item-media:focus{
+    background: #31D0AA;
+}
+/* ============/FOOTER============ */
+
+
 /* 
 =
 ============/INDEX.HTML============

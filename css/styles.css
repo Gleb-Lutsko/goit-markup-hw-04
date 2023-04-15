@@ -363,8 +363,9 @@ img{
 }
 .footer-container{
     padding: 0 15px;
-            display: flex;
-            gap: 120px;
+    display: flex;
+    gap: 120px;
+    align-items: baseline;
 }
 .footer-text{
     color: var(--footer-text-color);
@@ -378,10 +379,12 @@ img{
 .footer-media-text{
     font-weight: 500;
     color: var(--white-color);
+    margin-bottom: 16px;
 }
 .footer .media-list{
     margin: 0;
-    margin-top: 16px;
+    gap: 16px;
+
 }
 .footer .item-media{
     padding: 8px;

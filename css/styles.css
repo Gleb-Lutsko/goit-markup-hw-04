@@ -315,7 +315,7 @@ img{
     padding: 12px;
 }
 .links-container{
-    padding: 32px 0;
+    padding: 32px 0 32px;
 }
 /* ============/TEAM============ */
 
@@ -340,6 +340,9 @@ img{
     align-items: center;
     gap: 24px;
 }
+.customers-item{
+    width: calc((100% - 120px) / 6);
+}
 .customers-link{
     display: block;
     width: 168px;
@@ -347,6 +350,18 @@ img{
     padding: 16px 32px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8e8f99;
+}
+.customers-link:hover,
+.customers-link:focus{
+    border-color: var(--hover-color);
+    color: #404bbf;
+}
+.customers-icon{
+    fill: currentColor;
 }
 /* ============/CUSTOMERS============ */
 

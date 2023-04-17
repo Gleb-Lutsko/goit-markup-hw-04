@@ -39,9 +39,10 @@ img{
 }
 .container{
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 120px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
 }
 .link {
     text-decoration: none;
@@ -325,9 +326,6 @@ img{
 /* ============CUSTOMERS============ */
 .customers-section{
     padding: 120px 0;
-}
-.customers-container{
-    padding: 0;
 }
 .customers-title{
     text-align: center;

@@ -38,7 +38,8 @@ img{
 
 }
 .section{
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .container{
     width: 1158px;
@@ -108,7 +109,6 @@ img{
     display: flex;
     justify-content: space-between;
         align-items: center;
-        padding: 0 15px;
 }
 .contacts-link{
         font-weight: 400;
@@ -160,14 +160,9 @@ img{
     background-size: cover;
     background-position: center center;
     max-width: 1440px;
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
- .hero-container{
-    text-align: center;
-    padding: 0;
-
- }
-
 .hero-title {
         font-weight: 700;
         font-size: 56px;
@@ -206,9 +201,6 @@ img{
 }
 /* ============/HERO============ */
 /* ============ABOUT============ */
-.about-container{
-    padding: 0 15px;
-}
 .about-list{
     display: flex;
     justify-content: space-between;
@@ -235,9 +227,6 @@ img{
 }
 /* ============/ABOUT============ */
 /* ============PROJECTS============ */
-.projects-container{
-    padding: 0 15px;
-}
 .projects-title{
     text-align: center;
     letter-spacing: 0.02em;
@@ -257,9 +246,6 @@ img{
 }
 .team-section {
     background-color: var(--footer-text-color);
-}
-.team-container{
-    padding: 0 15px;
 }
 .team-title{
     margin-bottom: 72px;
@@ -371,7 +357,6 @@ img{
 
 }
 .footer-container{
-    padding: 0 15px;
     display: flex;
     gap: 120px;
     align-items: baseline;
@@ -430,7 +415,8 @@ img{
 */
 /* FILTER BTN */
 .portfolio-section{
-    padding: 96px 0 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .filter-list{
     display: flex;
@@ -463,9 +449,6 @@ img{
 }
 /* /FILTER BTN */
 /* PROJECTS */
-.portfolio-container{
-    padding: 0 15px;
-}
 .portfolio-list{
     display: flex;
     justify-content: space-between;

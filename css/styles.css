@@ -227,6 +227,9 @@ img{
 }
 /* ============/ABOUT============ */
 /* ============PROJECTS============ */
+.projects-section{
+    padding-top: 0;
+}
 .projects-title{
     text-align: center;
     letter-spacing: 0.02em;
